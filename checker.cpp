@@ -9,7 +9,7 @@ bool check_spo2(float spo2){
     return (spo2>=90);
 }
 
-bool check_respRate(bool respRate){
+bool check_respRate(float respRate){
     return (respRate>=70 && respRate<=95);
 }
 
