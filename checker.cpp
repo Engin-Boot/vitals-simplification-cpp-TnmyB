@@ -3,7 +3,7 @@
 
 bool vitalInRange(float value, float lower_limit, float upper_limit){
 
-    return !(value < lower_limit && value > upper_limit);
+    return !(value < lower_limit || value > upper_limit);
 }
 
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
